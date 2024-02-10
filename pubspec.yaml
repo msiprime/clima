@@ -15,6 +15,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   auto_size_text: ^3.0.0
   geolocator: ^10.1.0
+  permission_handler: ^11.2.1
+  http: ^1.2.0
 
 dev_dependencies:
   flutter_test:
