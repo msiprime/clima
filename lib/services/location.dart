@@ -2,8 +2,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class Location {
-  double latitude = 0;
-  double longitude = 0;
+  late double latitude;
+  late double longitude;
 
   Future<Position> getLocation() async {
     if (await Permission.location.request().isGranted) {
